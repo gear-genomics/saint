@@ -1,0 +1,24 @@
+{
+  "name": "saint-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Markus Hsi-Yang Fritz",
+  "license": "GPLv3",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

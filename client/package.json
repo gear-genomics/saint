@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rimraf dist && parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Markus Hsi-Yang Fritz",
+  "license": "GPLv3",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
