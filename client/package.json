@@ -11,10 +11,10 @@
   "author": "Markus Hsi-Yang Fritz",
   "license": "GPLv3",
   "devDependencies": {
-    "parcel-bundler": "^1.11.0",
+    "parcel-bundler": "^1.12.3",
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.1"
   }
 }
